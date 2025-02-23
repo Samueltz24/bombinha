@@ -1,5 +1,6 @@
 {
   "name": "aula01",
+  "homepage":"https://samueltz24.github.io/bombinha",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
