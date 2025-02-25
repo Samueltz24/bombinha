@@ -1,18 +1,31 @@
-.na{
-    background-image: url(../imagem/coku.avif);
-    height: 200px;
-    width: 100%
+:root{
+    --cor1: #094D84;
+    --cor2: #210FDB;
+    --cor3: #103FDC;
+    --cor4: #0FC0DB;
+    --cor5: #5877DB;
 }
 nav{
-    color: red;
-
+    color: var(--cor4);
+    background: var(--cor1);
+    padding: 10px 0px;
+}
+nav h1{
+    text-align: center;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    width: 100px;
+    margin: auto;
+    padding: 5px 0px;
+    background: var(--cor2);
+    border-radius: 0px 10px;
 }
 .card{
     display: flex;
     margin: 5%;
     flex-wrap: wrap;
     border: 1px solid #000;
-    background: red;
+    background: var(--cor3);
     border-radius: 10px;
 }
 .ola{
@@ -24,7 +37,7 @@ nav{
     cursor: pointer;
 }
 .ola:hover{
-    border: 3px solid forestgreen;
+    border: 1px solid var(--cor4);
 }
 p{
    text-align: center;
@@ -44,4 +57,33 @@ p{
     text-align: center;
     margin: auto auto;
     margin-top: 10px;
+}
+footer{
+    background-color: var(--cor1);
+    padding-bottom: 4px;
+    padding-top: 10px;
+    margin-top: 115px;
+    border-top: 2px solid var(--cor5);
+}
+.pai{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0px 4%;
+}
+.filho{
+    width: 40%;
+    color: #fff;
+    margin-left: 1%;
+}
+.link{
+    color: #fff;
+    background: var(--cor5);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid var(--cor4);
+}
+.link:hover{
+    background: var(--cor2);
+    color: 2px solid var(--cor5);
 }

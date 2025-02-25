@@ -3,7 +3,7 @@ function Nav(){
     return(
         <>
             <div className={styles.na}>
-                <nav>menu</nav>
+                <nav><h1>site tz</h1></nav>
             </div>
         </>
     )

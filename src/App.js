@@ -4,6 +4,7 @@ import Nav from './componente/Nav.js'
 import Card from './componente/Card.js'
 import styles from './componente/Estilo.module.css'
 import Biblioteca from './componente/Biblioteca.js';
+import Ford from './componente/Ford.js'
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <div className={styles.card}>
       <Biblioteca/>
       </div>
+      <Ford/>
     </div>
   );
 }
