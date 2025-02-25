@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/bombinha/static/css/main.3f45a405.css",
-    "main.js": "/bombinha/static/js/main.c816eb55.js",
+    "main.css": "/bombinha/static/css/main.48aa44b1.css",
+    "main.js": "/bombinha/static/js/main.6789608d.js",
     "static/js/488.a472eb1a.chunk.js": "/bombinha/static/js/488.a472eb1a.chunk.js",
-    "static/media/coku.avif": "/bombinha/static/media/coku.0fb3b0824ee34971099f.avif",
     "static/media/soldado.jpg": "/bombinha/static/media/soldado.e76795406bea4d64e969.jpg",
     "static/media/bomba.jpg": "/bombinha/static/media/bomba.bcc32c35ed8aea34a6a0.jpg",
     "static/media/sinalverde.avif": "/bombinha/static/media/sinalverde.0b6d3a3564f11379dee0.avif",
     "static/media/logo.svg": "/bombinha/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/bombinha/index.html",
-    "main.3f45a405.css.map": "/bombinha/static/css/main.3f45a405.css.map",
-    "main.c816eb55.js.map": "/bombinha/static/js/main.c816eb55.js.map",
+    "main.48aa44b1.css.map": "/bombinha/static/css/main.48aa44b1.css.map",
+    "main.6789608d.js.map": "/bombinha/static/js/main.6789608d.js.map",
     "488.a472eb1a.chunk.js.map": "/bombinha/static/js/488.a472eb1a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f45a405.css",
-    "static/js/main.c816eb55.js"
+    "static/css/main.48aa44b1.css",
+    "static/js/main.6789608d.js"
   ]
 }
