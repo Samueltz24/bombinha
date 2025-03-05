@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Nav/>
-      <p className={styles.pprincipal} >jogo de bomba </p>
+      <p className={styles.pprincipal} id='jogo' >jogo de bomba </p>
       <div className={styles.card}>
       <Biblioteca/>
       </div>

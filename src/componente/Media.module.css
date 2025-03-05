@@ -1,0 +1,6 @@
+@media (min-width: 992px) and (max-width: 1200px) {
+    .pai {
+      border: 3px solid blue;
+      margin-top: 100px;
+    }
+  

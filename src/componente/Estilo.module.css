@@ -87,3 +87,96 @@ footer{
     background: var(--cor2);
     color: 2px solid var(--cor5);
 }
+.resete{
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.resete:hover{
+    background: var(--cor4);
+}
+.b{
+    width: 50px;
+    height: 40px;
+    background: var(--cor3);
+    border: 1px solid var(--cor3);
+}
+.b1{
+    display: none;
+}
+.butao{
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .di{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .cor{
+        flex: 70%;
+    }
+    .resete{
+        flex: 20%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .di{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .cor{
+        flex: 70%;
+    }
+    .resete{
+        flex: 20%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .di{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .cor{
+        flex: 70%;
+    }
+    .resete{
+        flex: 20%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) { /* Corrigido */
+    .di{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .cor{
+        flex: 70%;
+    }
+    .resete{
+        flex: 20%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .ola { /* Corrigido */
+        flex: 13%;
+    }
+    .di{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .cor{
+        flex: 70%;
+    }
+    .resete{
+        flex: 20%;
+    }
+}
